@@ -1,0 +1,120 @@
+.mianConBox{
+	width: 100%;
+	height: 1230px;
+}
+.mianConBox .mianCon{
+	width: 1280px;
+	height: 1230px;
+	margin: 0 auto;
+	padding-top: 30px
+}
+.mianConBox .mianCon .left{
+	width: 320px;
+	height: 100%;
+}
+.mianConBox .mianCon .left h2{
+	width: 320px;
+	height: 80px;
+	background:#626262;
+	text-align: center;
+	font-size: 30px;
+	line-height: 80px;
+	color: white;
+
+}
+.mianConBox .mianCon .left  .fimg{
+	padding:15px ;
+	width: 320px;
+	height: 275px;
+	background: #f1f1f1;
+	margin-top: 20px;
+	box-shadow: 3px 3px 3px #ccc;
+}
+.mianConBox .mianCon .left  .fimg img{
+	width: 100%;
+	height: 100%;
+}
+.mianConBox .mianCon .left .hdlTu{
+	width: 320px;
+	height: 655px;
+	margin-top: 20px;
+	background: #f1f1f1;
+	box-shadow: 3px 3px 3px #ccc;
+	text-align: right;
+	padding-top: 10px
+}
+.mianConBox .mianCon .right{
+	width: 920px;
+	padding-top: 102px;
+	margin-left: 30px;
+	height: 100%;
+}
+.mianConBox .mianCon .right .conInfo{
+	width: 920px;
+	height: 300px;
+	background:#c9c9c9;
+	position: relative;
+}
+.mianConBox .mianCon .right .conInfo .conText{
+	width: 320px;
+	height: 215px;
+	background: #ffffff;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	padding-top:20px;
+	padding-left: 15px;
+	z-index: 9999
+}
+.mianConBox .mianCon .right .conInfo .conText p{
+	font-size: 14px;
+	line-height: 25px
+}
+.mianConBox .mianCon .right .conInfo .conText p b{
+	color: #009944
+}
+.mianConBox .mianCon .right>p{
+	font-size: 24px;
+	line-height: 45px;
+	padding: 20px;
+}
+.mianConBox .mianCon .right>input{
+	width: 800px;
+	height: 45px;
+	font-size: 16px;
+	background: #eeeeee;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+.mianConBox .mianCon .right>span{
+	color: red;
+	font-size: 16px;
+	margin-left: 15px
+}
+.mianConBox .mianCon .right>textarea{
+	width: 800px;
+	height: 150px;
+	font-size: 16px;
+	background: #eeeeee;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-top: 10px;
+	outline: none;
+	resize:none;
+}
+.mianConBox .mianCon .right>button{
+	width: 275px;
+	height: 65px;
+	background: #46c099;
+	border: 0;
+	border-radius: 5px;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	margin-top: 15px;
+	outline: none;
+}

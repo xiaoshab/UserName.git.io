@@ -1,0 +1,166 @@
+/*Companies to introduce*/
+.AboutBox{
+	width: 100%;
+	height: 2250px;
+}
+.AboutBox .About{
+	width: 1280px;
+	height: 2250px;
+	margin: 0 auto;
+/*	border: 1px solid */
+}
+.AboutBox .About .Compintr{
+ 	width: 100%;
+ 	padding-top: 45px;
+ 	padding-bottom: 20px;
+ 	font-size:14px;
+}
+.AboutBox .About .AbouTitle {
+	height: 100px;
+	font-size: 32px;
+	text-align: center;
+	line-height: 60px;
+	font-family:MicrosoftYaHei-Bold;
+	position: relative;
+}
+.AboutBox .About  .AbouTitle:after{
+	position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 15px solid #299249;
+    bottom: 25px;
+    left: 48.5%;
+}
+.AboutBox .About .Compintr p{
+	text-indent: 40px;
+	padding: 0 20px;
+	line-height: 30px
+}
+
+/*Course*/
+.AboutBox .About .Course{
+
+	height: 480px;
+	position: relative;
+/*	border: 1px solid red*/
+}
+.AboutBox .About .Course .scrollzh{
+	position: absolute;
+	width: 20px;
+	height: 430px;
+	background: white;
+	top: 0;
+	right: 0
+}
+.AboutBox .About .Course .carBox{
+	width: 52px;
+	height: 451px;
+	margin-top: 15px;
+	background: url('../images/courseBg.png') no-repeat center center;
+	position: relative;
+}
+.AboutBox .About .Course .carBox img{
+	width: 30px;
+	height: 114px;
+	position: absolute;
+	bottom: 20px;
+	left: 11px;
+	transition: all .8;
+}
+
+.AboutBox .About .Course .courTable{
+	padding-top: 30px;
+	margin-left: 52px;
+	height: 430px;
+	overflow: auto;
+	position: relative;
+}
+.AboutBox .About .Course .courTable li{
+	height: 80px;
+	line-height: 80px;
+	padding-left: 20px;
+}
+.AboutBox .About .Course .courTable li b{
+	font-size:28px;
+	font-family:MicrosoftYaHei-Bold;
+	color:#F7C61C;
+	line-height:22px;
+}
+.AboutBox .About .Course .courTable li span,i{
+	font-size:18px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+}
+.AboutBox .About .Course .courTable li span{
+	margin-left: 10px;
+	margin-right: 10px
+}
+.AboutBox .About .Course .courTable li i{
+	font-style: normal;
+}
+/*culture*/
+.AboutBox .About .culture{
+	height: auto;
+}
+.AboutBox .About .culture p{
+	font-size:14px;
+	font-family:MicrosoftYaHei-Bold;
+	font-weight:bold;
+	color:rgba(0,0,0,1);
+	line-height: 30px;
+	text-indent: 32px;
+	padding: 0 20px;
+	text-align: center;
+}
+.AboutBox .About .culture p span{
+    display: inline-block;
+    padding: 0 5px;
+    width: 100%;
+    text-align: left;
+    float: left;
+    margin-bottom: 20px
+}
+
+/*AboutImg*/
+.AboutImg{
+	margin-top: 30px;
+}
+.AboutImg>div{
+	height: 710px;
+	width: 100%;
+	position: relative;
+}
+.AboutImg>div img{
+	float: left;
+	padding: 2px;
+	transition: all .8s;
+}
+.AboutImg>div img:last-child{
+	position: absolute;
+	top: 0;
+	right:0;
+}
+.AboutImg>div img:nth-child(2){
+	margin-bottom:8px;
+	width: 365px;
+	height: 346px;
+}
+.AboutImg>div img:nth-child(1){
+	width: 560px;
+	height: 700px
+}
+.AboutImg>div img:nth-child(3){
+	width: 365px;
+	height: 346px;
+}
+.AboutImg>div img:nth-child(4){
+	width: 339px;
+	height: 700px
+}
+/* .AboutImg>div img:hover{
+	transform: scale(1.1);
+	z-index: 5
+} */

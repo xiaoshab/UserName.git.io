@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>划得来-新闻内容</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/news.css">
+</head>
+<body onscroll="scroll()">
+	<span class="BaseRetun">
+		<a href="#">
+			<img src="../images/return.png" alt=""><br><br>返回顶部
+		</a>
+	</span>
+	<!-- 头部导航 -->
+	<div class="headNavBox">
+		<div class="headNav">
+			<h1 class="LogoBox FloatLeft cursor">
+				<a href="" class="head">
+					划得来货的
+				</a>
+			</h1>
+			<ul class="nav FloatLeft">
+				<li><a href="../index.html">首页</a></li>
+				<li style="position: relative;" class="active"><a href="关于我们.html">关于我们</a>
+					<ul class="childrenNav">
+						<li><a href="我们的团队.html">我们的团队</a></li>
+					</ul>
+				</li>
+				<li><a href="新闻中心.html">新闻中心</a></li>
+				<li><a href="联系我们.html">联系我们</a></li>
+				<li><a href="下单入口.html">下单入口</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- banner图播放 -->
+	<div class="BannerBox">
+		 <div class="swiper-container banner">
+   			 <div class="swiper-wrapper">
+     			 <div class="swiper-slide" style="background-image:url('../images/1.png')"></div>
+      			 <div class="swiper-slide" style="background-image:url('../images/2.png')"></div>
+      			 <div class="swiper-slide" style="background-image:url('../images/3.png')"></div>
+      			 <div class="swiper-slide" style="background-image:url('../images/4.png')"></div>
+    		</div>
+    <!-- Add Pagination -->
+    		<div class="swiper-pagination swiper-pagination-white"></div>
+    <!-- Add Arrows -->
+    		<div class="swiper-button-next swiper-button-white"></div>
+    		<div class="swiper-button-prev swiper-button-white"></div>
+  		</div>
+	</div>
+	<!-- 新闻中心 -->
+	<div class="NewsMian">
+		<div class="newConBox">
+			<h2>在页面上可以有多个事件</h2>
+			<p><span style="margin-right: 30px">浏览：65次</span><span>2018年02月12日 17:52:00</span></p>
+			在页面上可以有多个事件，也可以多个元素响应同一件事，
+
+事件冒泡引发的问题：
+
+有些时候不想动用的事件，却因为事件冒泡而触发
+
+解决问题：
+
+1.事件对象
+
+由于IE-DOM和标准的DOM实现事件对象的方法各不相同，导致在不同浏览器上获取事件对象变得比较困难，。针对这个问题，jq进行了必要的扩展和封装，从而使得在什么浏览器中都能够轻松地获取事件对象以及事件对象的一些属性。
+
+在程序中，实现事件对象非常简单，只需要为函数添加一个参数，例：
+
+$(element).bind('click',function(event){
+
+　　//event:事件对象
+
+ 
+
+})
+
+当单击element时，事件对象就被创建了，这个事件对象只有事件处理函数才能访问，事件处理函数执行完毕，事件对象就会被销毁。
+
+ 
+
+2停止事件冒泡
+
+停止事件冒泡可以阻止事件中其他对象的事件处理函数被执行。在jq中提供了stopPropagation()方法来停止事件冒泡。
+
+ 
+
+ 
+
+3.阻止默认行为
+
+网页中的元素有自己的默认行为，例如 单击超链接后会跳转，点击“提交”按钮后表单会提交，有时需要阻止元素的默认行为。
+
+在jq中，提供了preventDefault()方法来阻止元素的默认行为。
+
+例，在项目中，经常需要验证表单，在单击“提交”按钮时，验证表单内容，
+
+例如，某元素是否是必填字段，某元素长度是否够6位，当表单不符合提交条件时，要阻止表单的默认行为，（表单提交）；
+
+<br><img src="../images/aff1.png" alt=""> <br>
+<br><img src="../images/aff2.png" alt=""> <br>
+
+如果想同时对事件对象停止冒泡和默认行为，可以在事件处理函数中返回false，这是对在事件对象上同时调用stopPropagation()和preventDefalut();
+
+在表单的例子中，可以把
+
+event.preventDefalut()//阻止默认行为
+
+改写成
+
+return  false;
+
+ 
+
+也可以把事件冒泡例子中的
+
+event.stopPropagation()//停止事件冒泡
+
+改写成
+
+return  false;
+
+<br><img src="../images/aff3.png" alt=""> <br>
+
+ 4.事件捕获
+
+事件捕获和事件冒泡是两个相反的过程，事件捕获是从最顶端往下开始触发。
+
+事件捕获并不是所有的主流浏览器都支持，并且这个缺陷无法通过javascript来修复，jq不支持事件捕获，如果需要用到事件捕获，只能用原生js;
+		</div>
+		<ul class="newList">
+			<li><a href="新闻内容.html">热烈庆祝划得来货的贵定网点开业大吉！<span>2018年7月10日</span></a></li>
+			<li><a href="新闻内容.html">热烈庆祝划得来货的贵定网点开业大吉！<span>2018年7月10日</span></a></li>
+			<li><a href="新闻内容.html">热烈庆祝划得来货的贵定网点开业大吉！<span>2018年7月10日</span></a></li>
+			<li><a href="新闻内容.html">热烈庆祝划得来货的贵定网点开业大吉！<span>2018年7月10日</span></a></li>
+		</ul>
+		<div class="pagecurr">
+			
+		</div>
+	</div>
+	<!-- 网站尾部 -->
+	<div class="footerBox">
+		<div class="footer">
+			<div class="fotLogo FloatLeft"></div>
+			<div class="fotCont FloatRight">
+				<ul class="fotNav">
+					<li><a href="../index.html">首页</a></li>
+					<li><a href="关于我们.html">关于我们</a></li>
+					<li><a href="新闻中心.html">新闻中心</a></li>
+					<li><a href="下单入口.html">下单入口</a></li>
+					<li><a href="联系我们.html">联系我们</a></li>
+				</ul>
+				<div class="Contact FloatLeft">
+					<h2>联系方式</h2>
+					<p>客服热线：0851-8863258</p>
+					<p>公司地址：贵阳市南明区花果园中央商务区6号14楼</p>
+					<p>邮箱：2986132340@qq.com</p>
+				</div>
+				<div class="fotEwm FloatRight">
+				<p>
+					<span style="color: white">APP下载</span>
+					<img src="../images/wxewm.png" alt="">
+				</p>	
+				<p>
+					<span style="color: white">微信公众号</span>
+					<img src="../images/wxewm.png" alt="">
+				</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/swiper.js"></script>
+<script src="../js/jquery.pagination.min.js"></script>
+<script src="../js/base.js"></script>
+<script>
+	$(".pagecurr").pagination({
+   currentPage: 3,// 当前页数
+   totalPage: 8,// 总页数
+   isShow: true,// 是否显示首尾页
+   count: 5,// 显示个数
+   homePageText: "首页",// 首页文本
+   endPageText: "尾页",// 尾页文本
+   prevPageText: "上一页",// 上一页文本
+   nextPageText: "下一页",// 下一页文本
+   callback: function(current) {
+       // 回调,current(当前页数)
+   }
+});
+</script>

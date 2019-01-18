@@ -1,0 +1,171 @@
+/*.Behalf*/
+.BehalfBox{
+	width: 100%;
+	height: 550px;
+	padding-top: 50px;
+}
+.BehalfBox .Behalf{
+	width: 1280px;
+	height: 428px;
+	margin: 0 auto;
+	background: #3f7857;
+	position: relative;
+	padding-left: 550px;
+	padding-top:50px;
+	color: white
+}
+.BehalfBox .Behalf img{
+	position: absolute;
+	width: 432px;
+	height: 427px;
+	top:-30px;
+	left: 30px 
+}
+.BehalfBox .Behalf h4{
+	font-size: 24px
+}
+.BehalfBox .Behalf h4 span{
+	font-size: 14px;
+	font-weight: normal;
+}
+.BehalfBox .Behalf p{
+	line-height: 35px;
+	margin-top: 30px;
+	font-size: 18px;
+	text-indent: 2rem
+}
+/*team*/
+.TeamBox{
+	width: 100%;
+	height: 1140px;
+	background:rgba(238,238,238,1);
+	/*margin-bottom: 50px;*/
+}
+.TeamBox .Team{
+	width: 1280px;
+	height: 1140px;
+	margin: 0 auto
+}
+.TeamBox .Team h2{
+	height: 170px;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 40px;
+	color: #2A754A;
+	position: relative;
+}
+.TeamBox .Team h2 span{
+	font-size: 30px
+}
+.TeamBox .Team h2:after{
+	position: absolute;
+	content: "";
+	width:280px;
+	top: 70px;
+	left: 12%;
+	height:2px;
+	background:#2A754A;
+}
+.TeamBox .Team h2:before{
+	position: absolute;
+	content: "";
+	width:280px;
+	top: 70px;
+	right: 12%;
+	height:2px;
+	background:#2A754A;
+}
+.TeamBox .Team .teamTable{
+	width: 1280px;
+	height: 870px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.TeamBox .Team .teamTable li{
+	width: 390px;
+	height: 420px;
+	position: relative;
+	transition: all .8s;
+}
+.TeamBox .Team .teamTable li img{
+	width: 100%;
+	height: 100%;
+	transition: all .8s;
+}
+.TeamBox .Team .teamTable li .figure{
+	position: absolute;
+	height: 80px;
+	line-height: 40px;
+	z-index: 999;
+	color: white;
+	/*top: 150px;*/
+	top: 300px;
+	left: 30px;
+	transition: all .8s;
+}
+.TeamBox .Team .teamTable li .figure b{
+	font-size:26px;
+	font-family:MicrosoftYaHei;
+}
+
+.TeamBox .Team .teamTable li .figure span{
+	font-size:16px;
+	font-family:MicrosoftYaHei;
+}
+.TeamBox .Team .teamTable li .figD{
+	position: absolute;
+	top: 0px;
+	z-index: 999;
+	color: white;
+	left: 30px;
+	font-size:16px;
+	font-family:MicrosoftYaHei;
+	line-height: 40px;
+	opacity: 0;
+	transition: all .8s;
+}
+.TeamBox .Team .teamTable li:hover{
+	background: #434343;
+}
+.TeamBox .Team .teamTable li:hover img{
+	opacity: .4
+}
+.TeamBox .Team .teamTable li:hover .figure{
+	top: 150px
+}
+.TeamBox .Team .teamTable li:hover  .figD{
+	opacity: 1;
+	top: 230px
+}
+.TeamBox .Team .curr{
+	height: 50px;
+	text-align: center;
+	margin-top: 20px
+}
+.TeamBox .Team .curr span{
+	display: inline-block;
+	height: 40px;
+	width: 50px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	margin-left: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	color:#009944;
+	font-weight: 600
+}
+.TeamBox .Team .curr .active{
+	background: #009944;
+	color: white;
+}
+.TeamBox .Team .curr .currItem:hover{
+	background: #009944;
+	color: white;
+}
+.TeamBox .Team .curr .farst{
+	background: white;
+	width: 80px
+}

@@ -1,0 +1,238 @@
+/*Express mail tracking*/
+.CourierBox{
+	height: 1300px;
+	background: #efefef
+}
+.CourierBox .Courier{
+	width: 1280px;
+	height: 1300px;
+	margin: 0 auto;
+	border: 1px solid;
+}
+.CourierBox .Courier h2{
+	height:80px;
+	font-size:36px;
+	font-family:MicrosoftYaHei;
+	font-weight: normal;
+	text-align: center;
+	line-height: 80px;
+	border-bottom: 5px solid #27A44D;
+	margin-bottom: 15px;
+}
+.CourierBox .Courier .courLeft{
+	width: 272px;
+	height: 1203px;
+	border-right: 1px solid #959595;
+	background: white
+}
+.CourierBox .Courier .courLeft .seachBox{
+	width: 272px;
+	height: 232px;
+	border-bottom: 1px solid #959595;
+}
+
+.CourierBox .Courier .courLeft .seachBox #seach{
+	width:237px;
+	height:81px;
+	border:1px solid rgba(149,149,149,1);
+	border-radius:3px;
+	margin-top: 65px;
+	margin-left: 17px;
+	padding-left: 5px;
+	font-size: 16px
+}
+.CourierBox .Courier .courLeft .seachBox .seachBtn{
+	width:65px;
+	height:30px;
+	background:#27A44D;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+	margin-left: 17px;
+	margin-top: 10px;
+}
+
+.CourierBox .Courier .courLeft .wgh{
+	padding-top: 50px;
+	padding-left: 47px
+}
+.CourierBox .Courier .courLeft .wgh>p:nth-child(1){
+	height: 25px;
+	padding-left: 30px;
+	line-height: 25px;
+	background: url('../images/wx.png') no-repeat left center;
+}
+.CourierBox .Courier .courLeft .wgh>p{
+	line-height: 25px;
+	font-size:18px;
+}
+.CourierBox .Courier .courLeft .wgh .wxbox{
+	width:173px;
+	height:163px;
+	border:1px solid rgba(39,164,77,1);
+	border-radius:10px;
+	margin-top: 10px;
+	padding: 15px;
+}
+.CourierBox .Courier .courLeft .wgh .wxbox img{
+	width: 100%;
+	height: 100%;
+}
+
+.CourierBox .Courier .courRight{
+	width: 1006px;
+	height: 1203px;
+	border-right: 1px solid #959595;
+	background: white
+}
+
+.CourierBox .Courier .courRight .logState{
+	height: 153px;
+	border-bottom: 1px solid #959595;
+	padding-left: 115px;
+	padding-top: 50px;
+}
+.CourierBox .Courier .courRight .logState>span{
+	display: inline-block;
+	width:180px;
+	height: 62px;
+	font-size: 62px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	float: left;
+	line-height: 30px;
+	color: #868887
+}
+.CourierBox .Courier .courRight .logState .selState{
+	color: #27A44D;
+}
+.CourierBox .Courier .courRight .logState p{
+	display: inline-block;
+    width: 62px;
+    height: 62px;
+    background: #EEEEEE;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+.CourierBox .Courier .courRight .logState p:last-child{
+	padding-left: 13px
+}
+.CourierBox .Courier .courRight .logState .statebg{
+    background: #93DB6B;
+}
+.CourierBox .Courier .courRight .logState p img{
+	width: 45px;
+	height: 45px;
+}
+.CourierBox .Courier .courRight .logState p span{
+	position: absolute;
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-family:MicrosoftYaHei;
+	font-size: 16px;
+	bottom: -30px;
+	color: #868887;
+	left: -30px
+}
+.CourierBox .Courier .courRight .logState .statebg span{
+	color: #139C3D;
+}
+/*orderInfo*/
+
+.CourierBox .Courier .courRight .orderInfo{
+	height: 478px;
+	border-bottom: 1px solid #959595;
+	padding-left: 80px;
+ }
+ .CourierBox .Courier .courRight .orderInfo h3{
+ 	padding: 15px;
+ 	font-size:24px;
+ 	font-family:MicrosoftYaHei-Bold;
+ 	color: #079933
+ }
+  .CourierBox .Courier .courRight .orderInfo p{
+  	height: 35px;
+  	line-height: 35px;
+  	font-size: 16px;
+  	color: #079933;
+  	font-family:MicrosoftYaHei;
+  }
+  .CourierBox .Courier .courRight .orderInfo p span{
+  	display: inline-block;
+  	text-align: right;
+  	width: 80px;
+  }
+  .CourierBox .Courier .courRight .orderInfo p b{
+  	font-weight: normal;
+  }
+
+  /*goodsTable*/
+  .CourierBox .Courier .courRight  .Goods{
+  	padding-left: 80px;
+  	padding-top: 15px;
+  	height: 369px
+  }
+  .CourierBox .Courier .courRight  .Goods h3{
+  	padding: 15px;
+ 	font-size:24px;
+ 	font-family:MicrosoftYaHei-Bold;
+ 	color: #079933
+  }
+    .CourierBox .Courier .courRight  .Goods .goodList{
+    	background: #EEEEEE;
+    	width:722px;
+		height:155px;
+    }
+   .CourierBox .Courier .courRight  .Goods .goodimg{
+   		height: 131px;
+   		width: 117px;
+   		margin-top: 10px;
+   		margin-left: 25px
+   }
+    .CourierBox .Courier .courRight  .Goods .goodimg img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .CourierBox .Courier .courRight  .Goods .goodList .goodInfo{
+        	width: 80%;
+        	height: 120px;
+        	margin-top: 20px
+        }
+  .CourierBox .Courier .courRight  .Goods .goodList .goodInfo p{
+    	height: 60px;
+    	line-height: 60px;
+    	width: 100%;
+    }
+
+    .CourierBox .Courier .courRight  .Goods .goodList .goodInfo p>span{
+    	display: inline-block;
+    	width: 49%;
+    	height: 60px;
+    	text-align: center;
+    	float: left;
+    	font-weight: normal;
+    }
+      
+   .CourierBox .Courier .courRight  .Goods .goodList .goodInfo p>b{
+      	display: inline-block;
+    	width: 49%;
+    	height: 60px;
+    	text-align: center;
+    	float: left;
+    	font-weight: normal;
+      }
+.pagecurr{
+	width: 100%;
+      margin: 0 auto;
+      height: 80px;
+      padding-top: 35px;
+}
+      

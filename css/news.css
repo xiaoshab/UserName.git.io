@@ -1,0 +1,130 @@
+.NewsMian{
+	min-height:1600px;
+	height: auto!important;
+
+}
+.NewsMian .newTable{
+	width: 1280px;
+	margin: 0 auto;
+	height: 1200px;
+	display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.NewsMian .newTable{
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+.NewsMian .newTable li{
+	width: 390px;
+	height: 540px;
+	box-shadow: 3px 3px 3px #ccc;
+	border:1px solid #ccc
+}
+.NewsMian .newTable li .imgbox{
+	width: 100%;
+	height: 287px;
+	position: relative;
+	text-align: center;
+}
+.NewsMian .newTable li .imgbox img{
+	max-width: 95%;
+	max-height: 95%;
+	transition: all .6s;
+	cursor: pointer;
+}
+.NewsMian .newTable li h4{
+	height: 55px;
+	line-height: 55px;
+	font-size: 18px;
+	padding-left: 15px;
+	transition: all .6s;
+	cursor: pointer;
+}
+.NewsMian .newTable li .bor_bot{
+	background: url('../images/orcel.png');
+	height: 10px;
+}
+.NewsMian .newTable li .time,.textInfo{
+	font-size: 16px;
+	line-height: 30px;
+	padding: 0 10px;
+}
+.NewsMian .newTable li:hover .imgbox img{
+	opacity: .6;
+	max-width: 100%;
+	max-height: 100%;
+}
+.NewsMian .newTable li:hover h4{
+	color: #6e0a0a;
+}
+
+.NewsMian .newList{
+	height: 280px;
+	width: 1280px;
+	margin: 0 auto;
+}
+.NewsMian .newList li{
+	height: 70px;
+	line-height: 70px;
+	font-size:18px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(49,49,49,1);
+	padding: 0 20px;
+	background: url('../images/orc.png') no-repeat left center;
+	border-bottom:1px solid #ccc; 
+	transition: all .8s; 
+	position: relative;
+}
+.NewsMian .newList li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.NewsMian .newList li span{
+	float: right;
+}
+.NewsMian .newList li:hover a{
+	color: green
+}
+.NewsMian .newList li:after{
+	content: "";
+    width: 0;
+    height: 3px;
+    background: green;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transition: all .8s;
+}
+.NewsMian .newList li:hover:after{
+	left: 0%;
+   	width: 100%;
+}
+
+.pagecurr{
+	width: 1280px;
+	margin:  0 auto;
+	height: 80px;
+	text-align: center;
+	padding-top: 35px
+}
+.NewsMian .newConBox{
+	min-height: 1240px;
+	height: auto!important;
+	_height:600px;
+	width: 1280px;
+	margin:  0 auto;
+	line-height: 30px;
+	font-size: 18px;
+	text-indent: 32px;
+	padding: 30px;
+	text-align: center;
+}
+.NewsMian .newConBox h2{
+	padding: 15px;
+}

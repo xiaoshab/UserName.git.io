@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>划得来-联系我们</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/swiper.css">
+	<link rel="stylesheet" href="../css/contact.css">
+</head>
+<body onscroll="scroll()">
+	<span class="BaseRetun">
+		<a href="#">
+			<img src="../images/return.png" alt=""><br><br>返回顶部
+		</a>
+	</span>
+	<!-- 头部导航 -->
+	<div class="headNavBox">
+		<div class="headNav">
+			<h1 class="LogoBox FloatLeft cursor">
+				<a href="" class="head">
+					划得来货的
+				</a>
+			</h1>
+			<ul class="nav FloatLeft">
+				<li><a href="../index.html">首页</a></li>
+				<li style="position: relative;" class="active"><a href="关于我们.html">关于我们</a>
+					<ul class="childrenNav">
+						<li><a href="我们的团队.html">我们的团队</a></li>
+					</ul>
+				</li>
+				<li><a href="新闻中心.html">新闻中心</a></li>
+				<li><a href="联系我们.html">联系我们</a></li>
+				<li><a href="下单入口.html">下单入口</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- banner图播放 -->
+	<div class="BannerBox">
+		 <div class="swiper-container banner">
+   			 <div class="swiper-wrapper">
+     			 <div class="swiper-slide" style="background-image:url('../images/1.png')"></div>
+      			 <div class="swiper-slide" style="background-image:url('../images/2.png')"></div>
+      			 <div class="swiper-slide" style="background-image:url('../images/3.png')"></div>
+      			 <div class="swiper-slide" style="background-image:url('../images/4.png')"></div>
+    		</div>
+    <!-- Add Pagination -->
+    		<div class="swiper-pagination swiper-pagination-white"></div>
+    <!-- Add Arrows -->
+    		<div class="swiper-button-next swiper-button-white"></div>
+    		<div class="swiper-button-prev swiper-button-white"></div>
+  		</div>
+	</div>
+	<!-- 联系我们主要类容 -->
+	<div class="mianConBox">
+		<div class="mianCon">
+			<div class="left FloatLeft">
+				<h2>联系我们</h2>
+				<div class="fimg">
+					<img src="../images/fimg.png" alt="">
+				</div>
+				<div class="hdlTu">
+					<img src="../images/hdlban.png" alt="">
+				</div>
+			</div>
+			<div class="right  FloatLeft">
+				<div class="conInfo" id="container">
+					<div class="conText">
+						<h3>找到我们很容易!</h3>
+						<p>你可以通过以下方式联系我们，或给我们留言</p>
+						<p><b>0851-88632583</b></p>
+						<p>贵州众创划得来货的科技有限公司</p>
+						<p>地址：贵阳市南明区花果园中央商务区6号14楼</p>
+						<p>网址：www.hdlhd.com</p>
+						<p>邮箱：298613234@qq.com</p>
+					</div>
+				</div>
+				<p>亲爱的用户，非常感谢您选择划得来货的。<br>
+					您对我们有任何意见和建议，都可以在此留言，我们将尽快给您解答，<br>
+					或者您还可以拨打投诉热线： 0851-88632583<br>
+					客服人员会及时帮您解答，感谢您的理解和支持！
+				</p>
+				<input type="text" placeholder="姓名"><span>必填</span>
+				<input type="text" placeholder="手机号"><span>必填</span>
+				<textarea name="" id="" cols="30" rows="10" placeholder="请输入信息"></textarea><span style="position: absolute;top: 1685px;">必填</span>
+				<button>提交</button>
+			</div>	
+
+		</div>
+	</div>
+	<!-- 网站尾部 -->
+	<div class="footerBox">
+		<div class="footer">
+			<div class="fotLogo FloatLeft"></div>
+			<div class="fotCont FloatRight">
+				<ul class="fotNav">
+					<li><a href="../index.html">首页</a></li>
+					<li><a href="关于我们.html">关于我们</a></li>
+					<li><a href="新闻中心.html">新闻中心</a></li>
+					<li><a href="下单入口.html">下单入口</a></li>
+					<li><a href="联系我们.html">联系我们</a></li>
+				</ul>
+				<div class="Contact FloatLeft">
+					<h2>联系方式</h2>
+					<p>客服热线：0851-8863258</p>
+					<p>公司地址：贵阳市南明区花果园中央商务区6号14楼</p>
+					<p>邮箱：2986132340@qq.com</p>
+				</div>
+				<div class="fotEwm FloatRight">
+				<p>
+					<span style="color: white">APP下载</span>
+					<img src="../images/wxewm.png" alt="">
+				</p>	
+				<p>
+					<span style="color: white">微信公众号</span>
+					<img src="../images/wxewm.png" alt="">
+				</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/swiper.js"></script>
+<script src="../js/base.js"></script>
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.10&key=您申请的key值"></script>
+<script type="text/javascript">
+    // 创建地图实例
+    var map = new AMap.Map("container", {
+        zoom: 19,
+        center: [106.692401,26.569489],
+        resizeEnable: true
+    });
+
+     function addMarker() {
+        marker = new AMap.Marker({
+            icon: "http://webapi.amap.com/theme/v1.3/markers/n/mark_b.png",
+            // icon:"http://pic34.nipic.com/20131019/10262474_122700418000_2.gif",
+            position: [106.692401,26.569489],
+            // offset: new AMap.Pixel(-50, -75)
+            offset: new AMap.Pixel(-13, -30)
+        });
+        marker.setMap(map);
+        map.add(marker);
+    }
+    addMarker()
+
+</script>
